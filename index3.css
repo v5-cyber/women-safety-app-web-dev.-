@@ -1,0 +1,19 @@
+.Main-heading{
+    height: 250px;
+    top: 0px;
+    background-image: linear-gradient(135deg ,teal, rgb(155,197,197));
+/*align-items: center;
+align-content: center;*/
+border-bottom-left-radius: 70px;
+border-top-right-radius: 70;
+
+
+}
+
+
+
+.image-decor{
+    border-radius: 20px;
+    box-shadow: 2px 2px px;
+
+}

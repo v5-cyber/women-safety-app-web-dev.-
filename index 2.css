@@ -1,0 +1,64 @@
+p{
+    color:rgb(8, 8, 8);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mymessage{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(237, 240, 243);
+letter-spacing: 2px;
+/*text-decoration: underline;*/
+word-spacing: 5px;
+
+}
+
+#mydiv{
+ /*background-color: teal;*/
+ background-image: linear-gradient(120deg, teal ,rgb(166, 201, 201));
+ padding: 20px;
+ margin: 30px;
+ border-radius: 20px;
+ box-shadow: 5px 5px 1px black;
+ border-style: groove;
+ border-color: rgb(88, 153, 153);
+ border-width: 5px;
+}
+
+
+body{
+    background-color: antiquewhite;
+   background-image: url("image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+.head{grid-area: header;}
+.about{grid-area: abo;}
+.gallery{grid-area: gal;}
+.contact{grid-area: cont;}
+.support{grid-area: sup;}
+
+
+.mygriddiv{
+    display: grid;
+    grid-template-areas: 
+ 
+    background-image: linear-gradient(120deg,teal ,
+    rgb(58, 84, 84);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 30px;
+}
+.mygriddiv > div{
+    background-color: azure;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: teal;
+
+
+}
